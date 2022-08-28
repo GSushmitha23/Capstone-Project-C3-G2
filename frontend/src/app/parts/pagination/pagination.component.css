@@ -1,0 +1,41 @@
+footer ul li a {
+    color: #fff;
+  }
+  
+  .address{
+    background-color: hwb(0 6% 89%);
+    width: 1112px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.address .detail h1{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.address .detail p{
+    font-size:20px;
+    color: white;
+}
+.address .detail .detail1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20%;
+    color: white;
+}
+.address .detail .detail1 i{
+    margin: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+.detail p{
+  margin-right: 20px;
+}

@@ -1,0 +1,11 @@
+.fa-heart {
+    size:50px;
+    color :palevioletred;
+    cursor : pointer;
+}
+.card:hover{
+    transform: scale(1.10);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+
+}
