@@ -30,6 +30,16 @@ public class ShopApiApplication {
     public static void main(String[] args) {
         SpringApplication.run(ShopApiApplication.class, args);
     }
+    
+    @RestController
+public class HelloWorldController {
+    
+    @GetMapping("/")
+    public String helloWorld() {
+        return "Hello World";
+    }
+   
+}
 
 }
 
